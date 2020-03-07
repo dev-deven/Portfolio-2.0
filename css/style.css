@@ -146,6 +146,54 @@ body {
     border: 3px solid transparent;
     border-radius: 5px;
 }
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+/* Buttons */ 
+
+
+
+.button.primary-button{
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background .6s ease;
+  box-shadow:0px 10px 30px rgba(57, 56, 61, 0.205);
+ border: #854fee;
+}
+
+.button.primary-button:hover{
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+  position: absolute;
+  top: -2px; left: -2px;
+  bottom: -2px;  right: -2px;
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  content: ' ';
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.button.secondary-button{
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background .6s ease;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+ border: #854fee;
+}
+
+.button.secondary-button:hover{
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: black;
+  
+}
 /* About us start */
 .site_main .about_area{
   padding-top: 12vh;
@@ -182,7 +230,7 @@ body {
   width: auto;
 }
 .site_main .experence .first_row .col-lg-4 .single_brand:hover{
-  box-shadow: var(--box-shadow);
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
   transform: scale(1.1);
 }
 .site_main .experence .first_row .col-lg-4 .single_brand>img{
@@ -254,7 +302,7 @@ transition: transform;
   transition: box-shadow .7s ease;
  }
  .site_main .services .service:hover{
-  box-shadow: var(--box-shadow);
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
  }
 /*---------OUR TEAM------------ */
 .our-team{
