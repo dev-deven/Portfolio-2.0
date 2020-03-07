@@ -118,7 +118,7 @@ body {
    content: "";
    height: 2px;
    width: 22vh;
-   background: #4458dc;
+   background: black;
    display: inline-block;
    margin-left: 2%;
    transform: translateY(5px);
