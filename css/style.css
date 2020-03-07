@@ -267,7 +267,7 @@ transition: transform;
 .site_main .experence .years .years_exp{
   font-style: normal;
   font-weight: bold;
-  color: var(--primary-color);
+  color: #4458dc;
   font-size: 64px;
   line-height: 40px;
   z-index: 2;
