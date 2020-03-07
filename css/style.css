@@ -13,11 +13,11 @@
 
 }
 .header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+    padding: 10 20rem 5rem;
 }
 
 .header_area .main-menu .navbar{
-    padding: 1rem 10rem ;
+    padding: 0rem 10rem ;
 }
 body {
  overflow-x: hidden; /* Hide horizontal scrollbar */
